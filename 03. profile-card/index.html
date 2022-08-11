@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile card</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0;
+      }
+      .profile {
+        margin-top: -88px;
+      }
+    </style>
+  </head>
+  <body class="d-flex justify-content-center my-5">
+    <div class="card" style="width: 18rem">
+      <img src="bg.png" class="card-img-top" alt="..." />
+      <div class="card-body text-center">
+        <div class="position-relative profile">
+          <img src="p2.jpg" alt="" class="rounded-circle" />
+        </div>
+        <h5 class="card-title">Kathy Lewonsky</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Ver perfil</a>
+      </div>
+      <div class="list-group list-group-flush">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-2 align-items-center"
+          aria-current="true"
+        >
+          <span class="material-symbols-outlined text-secondary">
+            chat_bubble
+          </span>
+          Go to Sales Navigator
+        </a>
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-2 align-items-center"
+        >
+          <span class="material-symbols-outlined text-secondary">
+            notifications
+          </span>
+          notifications <span class="badge bg-danger">+99</span></a
+        >
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-2 align-items-center"
+        >
+          <span class="material-symbols-outlined text-secondary"> group </span>
+          Pending requests</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
