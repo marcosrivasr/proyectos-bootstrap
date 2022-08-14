@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <style>
+      .card-form {
+        margin-top: 100px;
+      }
+      .card {
+        width: 80%;
+        margin-top: -60px;
+      }
+
+      @media (min-width: 768px) {
+        .container {
+          max-width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-form container container-md border rounded">
+      <div class="card position-relative mx-auto bg-dark text-white p-3 fs-6">
+        <div class="fw-bold fs-4">VISA</div>
+        <div class="py-3 fs-4">**** **** **** 5677</div>
+        <div>
+          <div>MARCOS RIVAS ROJAS</div>
+          <div>23/21</div>
+        </div>
+      </div>
+
+      <form class="p-3">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Card Number</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="0000-0000-0000-0000"
+            maxlength="19"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Name on card
+          </label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="John Smith"
+          />
+        </div>
+        <div class="mb-3">
+          <div class="row">
+            <div class="col">
+              <label for="exampleInputPassword1" class="form-label"
+                >Expiry Date
+              </label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+                maxlength="5"
+                placeholder="12/03"
+              />
+            </div>
+            <div class="col">
+              <label for="exampleInputPassword1" class="form-label"
+                >Security code
+              </label>
+              <input
+                type="password"
+                maxlength="3"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Remember my card info</label
+          >
+        </div>
+        <div class="d-grid py-2">
+          <button type="submit" class="btn btn-primary btn-lg">
+            Check out
+          </button>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
